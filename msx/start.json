@@ -1,5 +1,5 @@
 {
   "name": "MSX Hub",
   "version": "1.0",
-  "parameter": "content:https://denleopol.github.io/mediastationx/menu.json"
+  "parameter": "content:https://denleopol.github.io/msx/menu.json"
 }
