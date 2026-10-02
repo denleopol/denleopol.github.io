@@ -5,42 +5,27 @@
     "layout": "0,0,6,2",
     "color": "msx-glass"
   },
-  "items":
+  "items": [
     {
       "id": "msxplayer",
       "title": "MSXPlayer",
       "tag": "Плеер",
       "tagColor": "msx-blue",
-      "action": "start",
-      "data": {
-        "name": "MSXPlayer",
-        "version": "1.0",
-        "parameter": "redirect:http://msxplayer.ru/msx/start.json"
-      }
+      "action": "link:http://msxplayer.ru"
     },
     {
       "id": "lampa",
       "title": "Lampa",
       "tag": "Кино",
       "tagColor": "msx-red",
-      "action": "start",
-      "data": {
-        "name": "Lampa",
-        "version": "1.0",
-        "parameter": "redirect:http://lampa.mx/msx/start.json"
-      }
+      "action": "link:http://lampa.mx"
     },
     {
       "id": "gets-tv",
       "title": "GetsTV",
       "tag": "ТВ",
       "tagColor": "msx-yellow",
-      "action": "start",
-      "data": {
-        "name": "GetsTV",
-        "version": "1.0",
-        "parameter": "redirect:http://lg.getstv.ru/msx/start.json"
-      }
+      "action": "link:http://lg.getstv.ru"
     }
   ]
 }
