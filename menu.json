@@ -1,6 +1,6 @@
 {
   "type": "list",
-  "headline": "MSX Hub Test",
+  "headline": "MSX Hub Test v3",
   "template": {
     "type": "separate",
     "layout": "0,0,6,2",
@@ -8,11 +8,11 @@
   },
   "items": [
     {
-      "id": "msxplayer",
-      "title": "MSXPlayer",
+      "id": "msxplayer-v4",
+      "title": "MSXPlayer V4",
       "tag": "Плеер",
       "tagColor": "msx-blue",
-      "action": "link:http://msxplayer.ru"
+      "action": "content:http://v4.msxplayer.ru/msx/start.json"
     },
     {
       "id": "lampa",
@@ -26,7 +26,7 @@
       "title": "GetsTV",
       "tag": "ТВ",
       "tagColor": "msx-yellow",
-      "action": "link:http://lg.getstv.ru"
+      "action": "content:http://lg.getstv.ru/msx/start.json"
     }
   ]
 }
