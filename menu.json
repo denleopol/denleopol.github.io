@@ -1,6 +1,6 @@
 {
   "type": "list",
-  "headline": "MSX Hub Test v4",
+  "headline": "MSX Hub",
   "template": {
     "type": "separate",
     "layout": "0,0,6,2",
@@ -10,12 +10,51 @@
     {
       "id": "msxplayer",
       "title": "MSXPlayer v4",
-      "tag": "Плеер",
+      "tag": "Лаунчер",
       "tagColor": "msx-blue",
-      "action": "execute:http://msxplayer.ru/msx/get-start-action",
-      "data": {
-        "referer": "msx-hub"
-      }
+      "action": "execute:http://msxplayer.ru/msx/get-start-action"
+    },
+    {
+      "id": "wals",
+      "title": "WALS",
+      "tag": "Лаунчер",
+      "tagColor": "msx-blue",
+      "action": "content:https://wals09.github.io/msx/start.json"
+    },
+    {
+      "id": "noname",
+      "title": "NoName",
+      "tag": "Лаунчер",
+      "tagColor": "msx-blue",
+      "action": "content:http://msx.nnmtv.fun/msx/start.json"
+    },
+    {
+      "id": "noname-alt",
+      "title": "NoName (alt)",
+      "tag": "Лаунчер",
+      "tagColor": "msx-blue",
+      "action": "content:http://nnmtv.pw/msx/start.json"
+    },
+    {
+      "id": "arkmv",
+      "title": "ARKMV",
+      "tag": "Лаунчер",
+      "tagColor": "msx-blue",
+      "action": "content:http://arkmv.ru/msx/start.json"
+    },
+    {
+      "id": "tvru",
+      "title": "TVRU",
+      "tag": "Лаунчер",
+      "tagColor": "msx-blue",
+      "action": "content:https://tvru.github.io/msx/start.json"
+    },
+    {
+      "id": "msx-cc-ua",
+      "title": "MSX CC UA",
+      "tag": "Лаунчер",
+      "tagColor": "msx-blue",
+      "action": "content:http://msx.cc.ua/msx/start.json"
     },
     {
       "id": "lampa",
@@ -25,11 +64,263 @@
       "action": "link:http://lampa.mx"
     },
     {
-      "id": "gets-tv",
+      "id": "lampa-land",
+      "title": "Lampa Land",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://lampa.land"
+    },
+    {
+      "id": "lampa-unc",
+      "title": "Lampa Uncensored",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://bylampa.online"
+    },
+    {
+      "id": "lampa-uspeh",
+      "title": "Lampa UspehTV",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://uspeh.sbs"
+    },
+    {
+      "id": "lampset",
+      "title": "Набор Ламп",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "panel:https://wals09.github.io/msx/lampset/template.json"
+    },
+    {
+      "id": "prisma",
+      "title": "Prisma",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "panel:https://wals09.github.io/msx/prisma/template.json"
+    },
+    {
+      "id": "vokino",
+      "title": "VoKino",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://web.vokino.pro/"
+    },
+    {
+      "id": "netfix",
+      "title": "NetFix",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://netfix.cc"
+    },
+    {
+      "id": "atodo",
+      "title": "ATODO",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+    },
+    {
+      "id": "atodo-web",
+      "title": "ATODO (web)",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://msx.atodo.fun/"
+    },
+    {
+      "id": "movielab",
+      "title": "MOVIELAB",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "menu:https://movielab.fun/msx/menu.json"
+    },
+    {
+      "id": "deeplex",
+      "title": "Deeplex",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://smart.deeplex.cc/"
+    },
+    {
+      "id": "moovies",
+      "title": "Moovies",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "menu:request:interaction:init@http://moovies.uz/index.html"
+    },
+    {
+      "id": "zona",
+      "title": "Zona",
+      "tag": "Кино",
+      "tagColor": "msx-red",
+      "action": "link:http://m.zona.ms"
+    },
+    {
+      "id": "getstv",
       "title": "GetsTV",
-      "tag": "ТВ",
+      "tag": "IPTV",
       "tagColor": "msx-yellow",
       "action": "panel:http://lg.getstv.ru/msx/msx.json"
+    },
+    {
+      "id": "icva",
+      "title": "ICVA",
+      "tag": "IPTV",
+      "tagColor": "msx-yellow",
+      "action": "link:http://icva.mx/"
+    },
+    {
+      "id": "drm-play",
+      "title": "DRM-Play",
+      "tag": "IPTV",
+      "tagColor": "msx-yellow",
+      "action": "link:http://ott.drm-play.com"
+    },
+    {
+      "id": "ott-play",
+      "title": "OTT-PLAY",
+      "tag": "IPTV",
+      "tagColor": "msx-yellow",
+      "action": "link:http://ott-play.com/f/"
+    },
+    {
+      "id": "ott-foss",
+      "title": "OTT-FOSS",
+      "tag": "IPTV",
+      "tagColor": "msx-yellow",
+      "action": "link:http://ott.prog4food.eu.org/f/"
+    },
+    {
+      "id": "ottplayer",
+      "title": "Ottplayer",
+      "tag": "IPTV",
+      "tagColor": "msx-yellow",
+      "action": "link:http://widget.ottplayer.tv"
+    },
+    {
+      "id": "oneplayer",
+      "title": "Oneplayer",
+      "tag": "IPTV",
+      "tagColor": "msx-yellow",
+      "action": "link:http://webos.oneplayer.me"
+    },
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://www.youtube.com/tv#/"
+    },
+    {
+      "id": "youtube-kids",
+      "title": "YouTube Kids",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://www.youtube.com/tv/kids"
+    },
+    {
+      "id": "rutube",
+      "title": "RUTUBE",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/"
+    },
+    {
+      "id": "vk-video",
+      "title": "VK Video",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "panel:https://wals09.github.io/msx/vkvideo/vk_template.json"
+    },
+    {
+      "id": "yandex-video",
+      "title": "Яндекс Видео",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://yandex.ru/video/tvapp/?ui=tvapp"
+    },
+    {
+      "id": "smotrim",
+      "title": "Смотрим",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://tv.smotrim.ru"
+    },
+    {
+      "id": "tiktok",
+      "title": "TikTok",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://tv.tiktok.com/webos"
+    },
+    {
+      "id": "okko",
+      "title": "OKKO",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:http://lge.okko.tv"
+    },
+    {
+      "id": "kion",
+      "title": "Kion",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:https://kion.ru/EPG/smarttvlg/index.html"
+    },
+    {
+      "id": "forkplayer",
+      "title": "Forkplayer",
+      "tag": "Видео",
+      "tagColor": "msx-green",
+      "action": "link:http://browser.appfxml.com/"
+    },
+    {
+      "id": "kinoboom",
+      "title": "KINOBOOM",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "execute:info:extended:http://kb-team.club/msx/enter.php"
+    },
+    {
+      "id": "xsmart",
+      "title": "X-SMART TV",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "link:http://app.xsmart.tv"
+    },
+    {
+      "id": "impire-boom",
+      "title": "IMPIRE BOOM",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "link:http://web.imboom.ru/"
+    },
+    {
+      "id": "cdn-services",
+      "title": "CDNServices",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "link:https://cdnservices.link"
+    },
+    {
+      "id": "multiki",
+      "title": "Мультики",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "content:https://wals09.github.io/msx/welcome.json"
+    },
+    {
+      "id": "relax",
+      "title": "Relax (Радио)",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "content:https://wals09.github.io/msx/bonus/relax.json"
+    },
+    {
+      "id": "alterstore",
+      "title": "AlterSTORE",
+      "tag": "Прочее",
+      "tagColor": "msx-white",
+      "action": "panel:https://wals09.github.io/msx/alterstore/template.json"
     }
   ]
 }
