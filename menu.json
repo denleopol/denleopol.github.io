@@ -1,20 +1,14 @@
 {
   "type": "list",
-  "headline": "MSX Hub",
+  "headline": "MSX Hub Test",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,6,2",
+    "color": "msx-glass"
+  },
   "items": [
-    {
-      "id": "msxplayer",
-      "title": "MSXPlayer",
-      "tag": "Плеер",
-      "tagColor": "msx-blue",
-      "action": "content:http://msxplayer.ru"
-    },
-    {
-      "id": "lampamx",
-      "title": "Lampa.MX",
-      "tag": "Кино",
-      "tagColor": "msx-red",
-      "action": "content:http://lampa.mx"
-    }
+    { "id": "msxplayer", "title": "MSXPlayer", "tag": "Плеер", "tagColor": "msx-blue", "action": "content:http://msxplayer.ru" },
+    { "id": "lampa", "title": "Lampa", "tag": "Кино", "tagColor": "msx-red", "action": "content:http://lampa.mx" },
+    { "id": "gets-tv", "title": "GetsTV", "tag": "ТВ", "tagColor": "msx-yellow", "action": "content:http://lg.getstv.ru" }
   ]
 }
